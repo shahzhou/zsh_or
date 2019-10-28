@@ -1,2 +1,2 @@
 # zsh_or
-project
+my project
