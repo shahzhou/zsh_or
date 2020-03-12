@@ -1,7 +1,7 @@
 import scrapy
 from scrapy.crawler import CrawlerProcess
 from scrapy.utils import log
-from sites.unit.middlewares import InitHeadersMiddleware
+from tools.middlewares import InitHeadersMiddleware
 
 
 def run_spider(spider, settings={}, args=[]):
